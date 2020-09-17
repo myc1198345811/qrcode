@@ -1,0 +1,22 @@
+{
+    "name": "myc/qrcode",
+    "description": "This is my first composer package",
+    "type": "1",
+    "require": {
+        "endroid/qr-code": "3.9",
+        "php": ">=7.0.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "story",
+            "email": "1198345811@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Myc\\": "src/qrcode"
+        }
+    }
+}
